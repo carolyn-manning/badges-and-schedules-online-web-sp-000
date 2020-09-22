@@ -9,3 +9,14 @@
    end
    badges
 end
+
+def assign_rooms(attendees)
+  room_assignments = []
+  room = 1
+  attendees.each do |attendee|
+    room assignments << "Hello, #{attendee}! You'll be assigned to room #{room}!"
+    room +=1
+  end
+  room_assignments
+end 
+  
