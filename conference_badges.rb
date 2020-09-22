@@ -7,5 +7,5 @@
    each.attendees do |attendee|
      guest_badges << badge_maker(guest)
    end
-   guest_badges
+   badges
 end
